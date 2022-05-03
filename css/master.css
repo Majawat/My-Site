@@ -1,0 +1,152 @@
+/* type css */
+body {
+  background-color: #FFFDD1;
+  color: #40514e;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.75rem;
+  font-weight: normal;
+  margin: 0;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr {
+  border: dotted #40514e 6px;
+  border-bottom: none;
+  margin: 100px auto 100px;
+  width: 4%;
+}
+
+p {
+  line-height: 2;
+}
+
+/* class css */
+.topContainer {
+  background-color: #eaf6f6;
+  padding-top: 100px;
+  position: relative;
+}
+
+.footer-link {
+  margin: 10px 20px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -webkit-gradient(linear, top, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  margin: 100px auto;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -webkit-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.middle-Container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  margin: 0;
+  padding-bottom: 5px;
+  padding-top: 25px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  bottom: 300px;
+  left: 300px;
+  position: absolute;
+}
+
+.intro {
+  margin: 25px auto 0;
+  width: 40%;
+}
+
+.profile-pic {
+  height: 150px;
+  margin: 25px auto 25px;
+}
+
+.skill1-pic {
+  float: left;
+  margin-right: 30px;
+  width: 15%;
+}
+
+.skill2-pic {
+  float: right;
+  margin-left: 30px;
+  width: 15%;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.contact-me {
+  margin: 40px auto 40px;
+  width: 40%;
+}
+
+.copyright {
+  color: #eaf6f6;
+  padding-top: 10px;
+}
+
+/* id css */
